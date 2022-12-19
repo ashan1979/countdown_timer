@@ -11,4 +11,15 @@ const months = [
     'October',
     'November',
     'December'
-]
+];
+
+const weekdays = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednsday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+];
+
