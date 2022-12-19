@@ -58,3 +58,12 @@ function getRemaindingTime() {
 // 1hr = 60m
 // 1day = 24hr
 // Value in Miliseconds
+
+const oneDay = 24 * 60 * 60 * 1000;
+const oneHour =  60 * 60 * 1000;
+const oneMinute = 60 * 1000;
+// calculate all values
+
+let days = t / oneDay;
+days = Math.floor(days)
+let hours = Math.floor((t % oneDay) / oneHour)
