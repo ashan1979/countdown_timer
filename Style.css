@@ -54,7 +54,6 @@ Variables
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-
 /*
 ===============
 Global Styles
@@ -137,8 +136,7 @@ p {
     line-height: 1;
   }
 }
-
-/* Global Classes */
+/*  global classes */
 
 .btn {
   text-transform: uppercase;
@@ -154,14 +152,11 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
-
 .btn:hover {
   color: var(--clr-white);
   background: var(--clr-black);
 }
-
 /* section */
-
 .section {
   padding: 5rem 0;
 }
@@ -177,31 +172,25 @@ main {
   display: grid;
   place-items: center;
 }
-
 /*
-===================
+===============
 Countdown Timer
-===================
+===============
 */
-
 .gift-img {
   margin-bottom: 2rem;
 }
-
 .gift-info h3 {
   text-transform: uppercase;
   color: var(--clr-primary-3);
 }
-
 .gift-info p {
   color: var(--clr-grey-6);
 }
-
 .date {
   color: var(--clr-grey-5);
   font-size: 0.85rem;
 }
-
 @media screen and (min-width: 992px) {
   .section-center {
     display: grid;
@@ -210,40 +199,34 @@ Countdown Timer
     gap: 3rem;
     width: 95vw;
   }
-
   .gift-img {
     margin-bottom: 0;
   }
-
-  .gift-info p {
-    margin: 2rem 0;
-  }
-
-  .deadline {
-    display: flex;
-  }
-
-  .deadline-format {
-    background: var(--clr-grey-1);
-    color: var(--clr-white);
-    margin-right: 1rem;
-    width: 5rem;
-    height: 5rem;
-    display: grid;
-    place-items: center;
-    text-align: center;
-  }
-
-  .deadline-format span {
-    display: block;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 0.85rem;
-  }
-
-  .deadline h4:not(.expired) {
-    font-size: 2rem;
-    margin-bottom: 0.25rem;
-    letter-spacing: var(--spacing);
-  }
+}
+.gift-info p {
+  margin: 2rem 0;
+}
+.deadline {
+  display: flex;
+}
+.deadline-format {
+  background: var(--clr-grey-1);
+  color: var(--clr-white);
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+.deadline h4:not(.expired) {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: var(--spacing);
 }
