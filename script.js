@@ -84,4 +84,12 @@ items.forEach(function (item, index) {
     item.innerHTML =  format(values[index]);
 });
 
+if (t < 0) {
+    clearInterval(countdown);
+    deadline.innerHTML = `<h4 class="expired">Sorry, This Giveaway has Expired!</h4>`;
+}
 
+// coundown;
+let coundown = setInterval(getRemaindingTime, 1000);
+//set inital values
+getRemaindingTime();
